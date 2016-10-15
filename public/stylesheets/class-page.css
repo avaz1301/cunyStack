@@ -9,6 +9,9 @@
 }
 .message {
   margin-top: 25px;
+  padding: 20px;
+  padding-left: 0;
+  box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .message-body > .body-heading {
   margin-top: 0;
@@ -28,10 +31,22 @@
 }
 
 .professor img{
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .qa-heading {
   margin-top: 0;
   text-align: center;
+}
+
+
+.response-body {
+  font-size: .9em;
+  padding-right: 3em;
+  border-top: 3px solid #eee;
+  border-left: none;
+  margin-top: 25px;
+}
+.response-citation {
+  padding-right: 3em;
 }
