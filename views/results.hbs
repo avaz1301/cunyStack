@@ -30,6 +30,15 @@
                             <h4>CSCI-{{courseID}}</h4>
                             <h4>OOP in Java</h4>
                             <h5>Professor: Kenneth Lord</h5>
+                            <form method="post" action="/details">
+                                <div class="form-group">
+                                    <input style="display: none;" class="form-control" type="text" name="school" value= {{school}} />
+                                    <input style="display: none;" class="form-control" type="text" name="courseid" value="CS" + {{courseID}} />
+                                    <input style="display: none;" class="form-control" type="text" name="coursename" value="OOP in Java" />
+                                    <input style="display: none;" class="form-control" type="text" name="profname" value="Kenneth Lord" />
+                                    <button type="submit" class="btn btn-primary">View Class</button>
+                                </div>
+                            </form>
                         </div>
                         <div class="col-md-7 text-left">
                             <p>Course Description:</p>
@@ -51,6 +60,13 @@
                             <h4>CSCI-{{courseID}}</h5>
                             <h4>OOP in Java</h4>
                             <h5>Professor: Daniel Gutlove</h5>
+                            <form method="post" action="/results/details">
+                                <input style="display: none;" class="form-control" type="text" name="school" value= {{school}} />
+                                <input style="display: none;" class="form-control" type="text" name="courseid" value="CS" + {{courseID}} />
+                                <input style="display: none;" class="form-control" type="text" name="coursename" value="OOP in Java" />
+                                <input style="display: none;" class="form-control" type="text" name="profname" value="Kenneth Lord" />
+                                <button type="submit" class="btn btn-primary">View Class</button>
+                            </form>
                         </div>
                         <div class="col-md-7 text-left">
                             <p>Course Description:</p>
