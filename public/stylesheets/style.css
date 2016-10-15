@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    background-color: #fffef2;
+    font-family: 'Raleway', sans-serif !important;
+    /*font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;*/
+}
+
+footer {
+    color: #FFFFFF;
+    height: 250px;
+}
+
+footer img {
+    width: 46px;
+    height: 46px;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+}
+
+footer img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+a {
+    color: #00B7FF;
+}
+
+.navbar-brand img {
+    height: 100%;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.bg-off-wht {
+    background-color: #fffef2;
+}
+
+.hero {
+    height: 500px;
+}
+
+#welcome-panel {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/queens-college.jpg');
+    background-size: cover;
+    color: #fffef2;
+}
+
+#welcome-panel .container {
+    padding-top: 16%;
+}
+
+#downchev1 {
+    font-size: 50px;
+}
+
+#downchev2 {
+    font-size: 25px;
+}
+
+#downchev3 {
+    font-size: 14px;
+}
