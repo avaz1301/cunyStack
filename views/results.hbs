@@ -1,0 +1,70 @@
+<div class="hero text-center welcome-panel">
+    <div class="container">
+        <h1>Your Results...</h1>
+        <div><span id="downchev1" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>
+        <div><span id="downchev2" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>
+        <div><span id="downchev3" class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></div>
+    </div>
+</div>
+<div class="container m-y-3">
+    <div class="row text-center m-y-2">
+        <div class="col-md-4">
+            <h3><b>School:</b> {{school}}</h3>
+        </div>
+        <div class="col-md-4">
+            <h3><b>Subject:</b> {{subject}}</h3>
+        </div>
+        <div class="col-md-4">
+            <h3><b>CourseID:</b> {{courseID}}</h3>
+        </div>
+    </div>
+</div>
+<div id="results" onclass="m-y-3">
+    <div class="container">
+        <a href="/details" method="post">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row m-y-2">
+                        <div class="col-md-3 text-center">
+                            <h4>{{school}}</h4>
+                            <h4>CSCI-{{courseID}}</h4>
+                            <h4>OOP in Java</h4>
+                            <h5>Professor: Kenneth Lord</h5>
+                        </div>
+                        <div class="col-md-7 text-left">
+                            <p>Course Description:</p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="/details">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row m-y-2">
+                        <div class="col-md-3 text-center">
+                            <h4>{{school}}</h4>
+                            <h4>CSCI-{{courseID}}</h5>
+                            <h4>OOP in Java</h4>
+                            <h5>Professor: Daniel Gutlove</h5>
+                        </div>
+                        <div class="col-md-7 text-left">
+                            <p>Course Description:</p>
+                            <p>
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                                survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<div class="container text-center m-y-3">
+    <a href="/"><button class="btn btn-primary m-y-3">Start New Search</button></a>
+</div>

@@ -46,13 +46,13 @@ a {
     height: 500px;
 }
 
-#welcome-panel {
+.welcome-panel {
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/queens-college.jpg');
     background-size: cover;
     color: #fffef2;
 }
 
-#welcome-panel .container {
+.welcome-panel .container {
     padding-top: 16%;
 }
 

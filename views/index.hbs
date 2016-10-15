@@ -1,4 +1,4 @@
-<div id="welcome-panel" class="hero text-center">
+<div class="welcome-panel hero text-center">
     <div class="container">
         <h1>Welcome to CUNYStack!</h1>
         <h3>Let's Begin! Please select your School, Subject, and Course ID..</h3>
@@ -9,11 +9,11 @@
 </div>
 <div class="text-center m-y-3">
     <h1>Search</h1>
-    <form class="form-horizontal m-y-3">
+    <form class="form-horizontal m-y-3" method="post" action="/results">
         <div class="form-group m-y-1">
             <label for="inputSchool" class="col-sm-2 control-label">School</label>
             <div class="col-sm-8">
-                <select class="form-control">
+                <select class="form-control" name="school">
                     <option selected="selected">Select Your School</option>
                     <option>City College</option>
                     <option>Hunter College</option>
@@ -37,7 +37,7 @@
         <div class="form-group m-y-1">
             <label for="inputSubject" class="col-sm-2 control-label">Subject</label>
             <div class="col-sm-8">
-                <select class="form-control">
+                <select class="form-control" name="subject">
                     <option selected="selected">Select Your Subject</option>
                     <option>Biology</option>
                     <option>Computer Science</option>
@@ -55,7 +55,7 @@
         <div class="form-group m-y-1">
             <label for="inputSubject" class="col-sm-2 control-label">Course ID</label>
             <div class="col-sm-2">
-                <input type="text" class="form-control" placeholder="Ex: cs111 -> '111' ">
+                <input type="text" name="courseID" class="form-control" placeholder="Ex: cs111 -> '111' ">
             </div>
         </div>
         <div class="form-group">

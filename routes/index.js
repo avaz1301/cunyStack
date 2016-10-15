@@ -6,8 +6,15 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'CUNYStack' });
 });
 
-router.get('/results', function(req,res,next){
-    res.render('results', {});
+router.post("/results", function (req, res) {
+    res.render('results', {
+        school:req.body.school,
+        subject:req.body.subject,
+        courseID:req.body.courseID
+    })
 });
+
+
+
 
 module.exports = router;
