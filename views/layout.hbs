@@ -38,13 +38,8 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- Nav Bar End -->
-</head>
-
-<body>
     {{{body}}}
-</body>
-
-<footer class="bg-black">
+    <footer class="bg-black">
     <div class="container">
         <div class="row m-y-3">
             <div class="col-md-4 col-xs-6 m-y-2">
@@ -69,6 +64,30 @@
         </div>
     </div>
 </footer>
+
+<script src="https://www.gstatic.com/firebasejs/3.5.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCCWDPu7CFrZuLk2HFT43xvJXMhgjZHI1M",
+    authDomain: "cunyhack.firebaseapp.com",
+    databaseURL: "https://cunyhack.firebaseio.com",
+    storageBucket: "cunyhack.appspot.com",
+    messagingSenderId: "356407806604"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<script>
+firebase.database().ref("data/text").once('value').then(function(data){
+
+    console.log(data.val());
+
+});
+
+</script>
+</body>
+
 
 
 </html>
