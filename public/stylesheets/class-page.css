@@ -1,0 +1,37 @@
+.class-page {
+  margin-top: 50px;
+  padding: 1em;
+}
+
+.class-info {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.message {
+  margin-top: 25px;
+}
+.message-body > .body-heading {
+  margin-top: 0;
+}
+.message-nested {
+  max-width: 100%;
+}
+
+.message-user-name {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.message-vote {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.professor img{
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+}
+
+.qa-heading {
+  margin-top: 0;
+  text-align: center;
+}

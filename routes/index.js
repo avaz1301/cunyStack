@@ -16,4 +16,8 @@ router.post('/results', function(req, res) {
     });
 });
 
+router.get('/detail', function(req,res,next){
+    res.render('detail', {});
+});
+
 module.exports = router;
