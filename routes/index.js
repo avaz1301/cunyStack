@@ -16,7 +16,7 @@ router.post('/results', function(req, res) {
     });
 });
 
-router.get('/detail', function(req,res,next){
+router.post('/detail', function(req,res,next){
     res.render('detail', {});
 });
 
